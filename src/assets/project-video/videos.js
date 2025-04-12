@@ -1,10 +1,9 @@
-import coffeeShop from '../../assets/project-video/coffeeShop-eCommerce.mp4'
-import loginSigninPage from '../../assets/project-video/login-signin-page.mp4'
-import socialMediaSite from '../../assets/project-video/social-media-site.mp4'
+import coffeeShop from "../../assets/project-video/Coffeeshop-Ecommerce.mp4";
+import loginSigninPage from "../../assets/project-video/Login-Signin-Page.mp4";
+import socialMediaSite from "../../assets/project-video/Social-Media-Site.mp4";
 
 export const allVideos = {
-
-  coffeeShop :  coffeeShop,
-  loginSigninPage : loginSigninPage,
-  socialMediaSite : socialMediaSite,
-}
+  coffeeShop: coffeeShop,
+  loginSigninPage: loginSigninPage,
+  socialMediaSite: socialMediaSite,
+};
