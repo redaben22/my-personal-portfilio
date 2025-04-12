@@ -14,6 +14,7 @@
     "@emailjs/browser": "^4.4.1",
     "@gsap/react": "^2.1.1",
     "@react-icons/all-files": "^4.1.0",
+    "@vercel/analytics": "^1.5.0",
     "gsap": "^3.12.5",
     "react": "19.0.0-rc-77f43893-20241010",
     "react-dom": "19.0.0-rc-77f43893-20241010",
