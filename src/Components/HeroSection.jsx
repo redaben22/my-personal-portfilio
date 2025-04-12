@@ -1,5 +1,7 @@
 import React from "react";
 import laptop from "../assets/objects/laptop.png";
+import laptop400 from "../assets/objects/laptop-400w.png";
+import laptop800 from "../assets/objects/laptop-800w.png";
 import { RenderEachChar } from "../utils/renderChars";
 import { animateMainSection } from "../utils/animations";
 const HeroSection = () => {
@@ -55,9 +57,9 @@ const HeroSection = () => {
             fetchPriority="high"
             className="object-cover w-full aspect-auto"
             sizes="100vw"
-            srcSet="../assets/objects/laptop-400w.png 450w,
-      ../assets/objects/laptop-800w.png 800w,
-    ../assets/objects/laptop.png 1920w"
+            srcSet={`${laptop400} 450w,
+      ${laptop800} 800w,
+    ${laptop} 1920w`}
             src={laptop}
             decoding="async"
             alt="laptop"
